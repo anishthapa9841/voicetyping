@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Voice Typing</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #1e293b;
+      background: #f8faff;
+      line-height: 1.7;
+    }
+
+    header {
+      background: white;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 12px #00000008;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+      color: #4f46e5;
+    }
+
+    nav a {
+      color: #334155;
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #4f46e5;
+    }
+
+    .hero {
+      padding: 80px 8%;
+      text-align: center;
+      background: linear-gradient(135deg, #eef2ff, #f5f3ff);
+    }
+
+    .hero .tag {
+      color: #4f46e5;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+    }
+
+    .hero h1 {
+      font-size: clamp(34px, 5vw, 54px);
+      line-height: 1.2;
+      margin: 18px auto;
+      max-width: 800px;
+    }
+
+    .hero h1 span {
+      color: #4f46e5;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto 28px;
+      color: #64748b;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #4f46e5;
+      color: white;
+      text-decoration: none;
+      padding: 13px 28px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #3730a3;
+      transform: translateY(-2px);
+    }
+
+    section {
+      padding: 65px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 18px;
+    }
+
+    .section-text {
+      text-align: center;
+      max-width: 780px;
+      margin: 0 auto;
+      color: #64748b;
+    }
+
+    .mission {
+      background: white;
+      text-align: center;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 38px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 28px;
+      border-radius: 14px;
+      border: 1px solid #e2e8f0;
+      transition: 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px #312e8110;
+    }
+
+    .feature-card .icon {
+      font-size: 35px;
+      margin-bottom: 12px;
+    }
+
+    .feature-card h3 {
+      margin-bottom: 10px;
+      color: #1e293b;
+    }
+
+    .feature-card p {
+      color: #64748b;
+      font-size: 15px;
+    }
+
+    .cta {
+      text-align: center;
+      background: #312e81;
+      color: white;
+    }
+
+    .cta p {
+      color: #ddd6fe;
+      margin: 15px auto 25px;
+    }
+
+    .cta .btn {
+      background: white;
+      color: #4338ca;
+    }
+
+    footer {
+      padding: 25px 8%;
+      text-align: center;
+      background: white;
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 45px 6%;
+      }
+
+      .hero {
+        padding: 60px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">🎙 VoiceTyping</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="tag">Welcome to VoiceTyping</div>
+
+      <h1>
+        Your Voice, Your Words.
+        <span>Made Simple.</span>
+      </h1>
+
+      <p>
+        We make writing faster, easier, and more accessible
+        through voice typing technology. Speak naturally
+        and turn your ideas into text.
+      </p>
+
+      <a href="#about" class="btn">Discover Our Story</a>
+    </section>
+
+    <section class="mission" id="about">
+      <h2 class="section-title">About Us</h2>
+
+      <p class="section-text">
+        At VoiceTyping, we believe that expressing your ideas
+        should be effortless. Our goal is to help people write
+        naturally using their voice instead of typing every
+        word manually. Whether you are a student, professional,
+        content creator, or everyday user, we aim to make
+        digital communication simpler and more convenient.
+      </p>
+
+      <br>
+
+      <h2 class="section-title">Our Mission</h2>
+
+      <p class="section-text">
+        Our mission is to make voice-powered communication
+        accessible to everyone. We strive to save time,
+        improve productivity, and create a more natural way
+        for people to turn spoken words into written content.
+      </p>
+    </section>
+
+    <section id="features">
+      <h2 class="section-title">Why Choose VoiceTyping?</h2>
+
+      <p class="section-text">
+        Discover a simpler way to write, communicate, and
+        bring your ideas to life.
+      </p>
+
+      <div class="features">
+
+        <div class="feature-card">
+          <div class="icon">🎤</div>
+          <h3>Easy Voice Typing</h3>
+          <p>
+            Convert your spoken words into text with a
+            simple and convenient voice typing experience.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">⚡</div>
+          <h3>Save Time</h3>
+          <p>
+            Write messages, notes, and drafts faster
+            without having to type every word.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">🌍</div>
+          <h3>Accessible to Everyone</h3>
+          <p>
+            Enjoy a more natural way to write, whether
+            you are working, studying, or sharing ideas.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <h2 class="section-title">Let's Make Writing Easier</h2>
+
+      <p>
+        Your ideas deserve to be heard. Let your voice
+        do the typing and focus on what matters most.
+      </p>
+
+      <a href="mailto:hello@voicetyping.example"
+         class="btn">Contact Us</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 VoiceTyping. All rights reserved.</p>
+    <p>Speak naturally. Write effortlessly.</p>
+  </footer>
+
+</body>
+</html>
